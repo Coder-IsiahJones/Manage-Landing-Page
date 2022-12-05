@@ -599,7 +599,7 @@ input:where([type="text"], [type="email"], ) {
     zoom: 70%;
     z-index: -1;
     left: -100%;
-    top: 43%;
+    top: 45%;
     width: 100px;
   }
 }
@@ -747,6 +747,10 @@ input:where([type="text"], [type="email"], ) {
 
 .margin-bottom-700 {
   margin-block-end: var(--size-700);
+}
+
+.margin-top-900 {
+  margin-block-start: var(--size-900);
 }
 
 .mx-auto {
